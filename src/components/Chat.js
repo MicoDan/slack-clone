@@ -65,8 +65,9 @@ function Chat() {
         <Header>
           <HeaderLeft>
             <h4>
-              <strong>#{roomDetails && roomDetails.data() ? roomDetails.data().name : '' }</strong>
+              <strong>#{roomDetails?.data()?.name ?? ""}</strong>
             </h4>
+
             <StarBorderIcon />
           </HeaderLeft>
           <HeaderRight>
@@ -96,7 +97,7 @@ function Chat() {
           <ChatBottom ref={chatRef} />
         </ChatMessages>
 
-        <ChatInput channelName={roomDetails?.data().name} channelId={roomId} />
+        <ChatInput channelName={roomDetails?.data()?.name ?? ''} channelId={roomId} />
       </>
     </ChatContainer>
   );
