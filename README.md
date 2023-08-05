@@ -10,6 +10,9 @@ This project is a simple Slack clone built using React, designed to mimic the es
 - [Contributing](#contributing)
 - [License](#license)
 
+DEMO  
+-
+https://slack-clone-omega-three.vercel.app/
 
 ## Features
 
