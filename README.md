@@ -12,7 +12,7 @@ This project is a simple Slack clone built using React, designed to mimic the es
 
 DEMO  
 -
-https://slack-clone-omega-three.vercel.app/
+https://slack-clone-dan.vercel.app/
 
 ## Features
 
