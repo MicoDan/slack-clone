@@ -65,7 +65,7 @@ function Chat() {
         <Header>
           <HeaderLeft>
             <h4>
-              <strong>#{roomDetails?.data().name}</strong>
+              <strong>#{roomDetails && roomDetails.data() ? roomDetails.data().name : '' }</strong>
             </h4>
             <StarBorderIcon />
           </HeaderLeft>
